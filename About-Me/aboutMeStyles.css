@@ -1,0 +1,86 @@
+#transbox {
+  margin: 30px;
+  border-radius: 30px;
+  background-color: #FFFFFF;
+  border: 5px solid #33CCFF;
+  opacity: 0.7;
+}
+
+#firstNormalText {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+#firstList {
+  margin-left: 120px;
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+#secondList {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+#bottomText {
+  clear: left;
+  float: bottom;
+  margin-bottom: 30px;
+}
+
+#veryBottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+
+#veryBottom p {
+  text-align: center;
+}
+
+.normalText {
+  margin-left: 85px;
+}
+
+.box {
+  float: left;
+  margin: 2%;
+  margin-top: 0px;
+  border: 15px, solid, black;
+  width: 30%;
+}
+
+body {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("brownPlaid.jpg");
+  font-family: 'Puritan', sans-serif;
+}
+
+h1 {
+  border-bottom: 0px;
+  margin-top: -10px;
+  margin-bottom: -20px;
+  margin-left: 20px;
+  padding-bottom: 0px;
+  font-family: 'Pacifico', cursive;
+  font-size: 600%;
+  color: #33CCFF;
+}
+
+h3 {
+  border-top: 0px;
+  margin-top: -35px;
+  margin-left: 120px;
+  padding-top: 0px;
+  font-family: 'Lora', serif;
+  color: white;
+}
+
+strong {
+  font-weight: bold;
+  color: #33CCFF;
+}
+
+marquee {
+  float: bottom;
+}
