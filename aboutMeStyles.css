@@ -39,6 +39,16 @@
   text-align: center;
 }
 
+#link {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+#image {
+  height: 100px;
+}
+
 .normalText {
   margin-left: 85px;
 }
