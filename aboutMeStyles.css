@@ -39,7 +39,7 @@
   text-align: center;
 }
 
-#link {
+#contactMeLink {
   position: fixed;
   bottom: 0;
   right: 0;
@@ -89,6 +89,10 @@ h3 {
 strong {
   font-weight: bold;
   color: #33CCFF;
+}
+
+textarea {
+  width: 300px;
 }
 
 marquee {
