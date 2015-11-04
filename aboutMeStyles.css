@@ -49,6 +49,11 @@
   height: 100px;
 }
 
+#tableHeader {
+  text-align: center;
+  font-size: 150%;
+}
+
 .normalText {
   margin-left: 85px;
 }
@@ -93,6 +98,18 @@ strong {
 
 textarea {
   width: 300px;
+}
+
+th, td {
+  padding: 15px;
+}
+
+table tr:nth-child(even) {
+    background-color: #eee;
+}
+
+table tr:nth-child(odd) {
+    background-color: #fff;
 }
 
 marquee {
