@@ -28,7 +28,9 @@ function startGame() {
 
   while (!firstAnswer) {
     var firstQuestion = prompt("What is my name?");
-    if (firstQuestion != "Lisa") {
+    if (firstQuestion === "Misa" || firstQuestion === "Elsa") {
+      alert("Close but try again");
+    } else if (firstQuestion != "Lisa" || "lisa") {
       alert("Try again");
     } else {
       firstAnswer = true;
@@ -36,7 +38,9 @@ function startGame() {
 
       while (!secondAnswer) {
         var secondQuestion = prompt("What are my number one interests?");
-        if (secondQuestion != "cats") {
+        if (secondQuestion === "hamsters" || "squirrels") {
+          alert("Close but try again");
+        } else if (secondQuestion != "Cats" || "cats") {
           alert("Try again");
         } else {
           secondAnswer = true;
@@ -44,9 +48,11 @@ function startGame() {
 
           while (!thirdAnswer) {
             var thirdQuestion = prompt("What occurs once in a minute, twice in a moment and never in a thousand years?")
-            if (thirdQuestion == "M" || "The letter M") {
+            if (thirdQuestion === "M" || "The letter M") {
               alert("You win");
               thirdAnswer = true;
+            } else if (thirdQuestion == "") {
+              alert("You're way off");
             } else {
               alert("Try again");
             }
