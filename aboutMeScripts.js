@@ -28,9 +28,9 @@ function startGame() {
 
   while (!firstAnswer) {
     var firstQuestion = prompt("What is my name?");
-    if (firstQuestion === "Misa" || firstQuestion === "Elsa") {
+    if (["Misa", "Elsa"].indexOf(firstQuestion) != -1) {
       alert("Close but try again");
-    } else if (firstQuestion != "Lisa" || "lisa") {
+    } else if (["Lisa", "lisa"].indexOf(firstQuestion) == -1) {
       alert("Try again");
     } else {
       firstAnswer = true;
