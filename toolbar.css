@@ -1,0 +1,78 @@
+#toolbar ul {
+  margin-right: 30px;
+  padding: 10px;
+  float: right;
+  text-align: left;
+  display: inline;
+  /*list-style: none;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);*/
+}
+
+#toolbar ul li {
+  display: inline-block;
+  margin: -3px;
+  position: relative;
+  padding: 10px;
+  background: #FFFFFF;
+  /*cursor: pointer;*/
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+#toolbar ul li:hover {
+  background: #33CCFF;
+  color: #FFFFFF;
+}
+
+#toolbar ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 41px;
+  left: 3px;
+  width: 150px;
+  /*-webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;*/
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+}
+
+#toolbar ul li ul li {
+  background: #33CCFF;
+  display: block;
+  color: #FFFFFF;
+  /*text-shadow: 0 -1px 0 #000;*/
+}
+
+#toolbar ul li ul li:hover {
+  background: #666666;
+}
+
+#toolbar ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+#toolbar a {
+  text-decoration: none;
+}
+
+#toolbar a:link {
+  text-decoration: none;
+}
+
+#toolbar a:visited {
+  text-decoration: none;
+}
