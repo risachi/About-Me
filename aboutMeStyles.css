@@ -54,6 +54,12 @@
   font-size: 150%;
 }
 
+#twoColumns {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
 .normalText {
   margin-left: 85px;
 }
